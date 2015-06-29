@@ -5,10 +5,10 @@ This extension allows you to generate environment files into your yii2 advanced 
 
 ## Installation
 
-    php composer.phar require --dev --prefer-dist purr-web/yii2-heroku "*"
+    php composer.phar require --dev --prefer-dist purrweb/yii2-heroku "*"
 or add in composer.json (require-dev section)
 
-    "purr-web/yii2-heroku": "*"
+    "purrweb/yii2-heroku": "*"
 
 ## Usage
 
@@ -20,7 +20,7 @@ return [
 	...
     'controllerMap' => [
         'heroku' => [
-            'class' => 'purr-web\yii2-heroku\HerokuGeneratorController',
+            'class' => 'purrweb\yii2-heroku\HerokuGeneratorController',
         ],
     ],
 	...

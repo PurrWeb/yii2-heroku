@@ -1,6 +1,6 @@
 <?php
 
-namespace jamband\schemadump;
+namespace purrweb\heroku;
 
 use Yii;
 use yii\console\Controller;
