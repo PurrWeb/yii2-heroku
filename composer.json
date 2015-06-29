@@ -1,0 +1,23 @@
+{
+    "name": "purr-web/yii2-heroku",
+    "description": "Generate yii2 environments for easy deployment on heroku",
+    "keywords": ["yii2", "extension", "heroku", "deploy", "generator"],
+    "homepage": "https://github.com/PurrWeb/yii2-heroku",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitriy Krista",
+            "email": "dmitriy.krista@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "purr-web\\yii2-heroku\\": ""
+        }
+    }
+}
