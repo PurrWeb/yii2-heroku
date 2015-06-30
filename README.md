@@ -20,7 +20,7 @@ return [
 	...
     'controllerMap' => [
         'heroku' => [
-            'class' => 'purrweb\yii2-heroku\HerokuGeneratorController',
+            'class' => 'purrweb\heroku\HerokuGeneratorController',
         ],
     ],
 	...
